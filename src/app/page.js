@@ -54,6 +54,9 @@ export default function Home() {
 
   return (
     <html className=' scroll-smooth'>
+    <head>
+      <title>Portfolio</title>
+    </head>
     <body>
 <section className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-700 flex flex-col justify-between px-10 max-sm:px-0" id='about-me'>
 
