@@ -152,7 +152,7 @@ export default function Home() {
   <section className='px-10 my-16'>
           <h3 className={`text-3xl py-1 text-teal-600 font-bold ${color ? 'text-teal-500': 'text-yellow-600'}`} id='certifications'>Certifications</h3>
           <div class="border-b-2 border-gray-400 my-4"></div>
-          <div className='flex space-x-20 m-5 overflow-x-scroll'>
+          <div className='flex space-x-20 m-5 overflow-x-scroll p-5'>
           <img src='8.png' className='h-72 w-auto rounded-2xl mb-4'></img>
           <img src='2.png' className='h-72 w-auto rounded-2xl mb-4'></img>
           <img src='3.png' className='h-72 w-auto rounded-2xl mb-4'></img>
@@ -198,7 +198,7 @@ export default function Home() {
 
             <li className='flex flex-col items-center'>
             <img src='Pokedex.jpg' className='h-72 w-auto rounded-2xl mb-4'></img>
-            <p className='text-white'>1. Pokedex with React Native</p>
+            <p className='text-white text-center'>1. Pokedex with React Native</p>
             <a href='https://expo.dev/artifacts/eas/deFwTgMEGvVbpu5oFMSsa.apk' className='text-yellow-500'>Click To Download</a>
             <p className='text-white'>(Android Only)</p> 
             </li>
