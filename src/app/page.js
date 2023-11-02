@@ -64,6 +64,7 @@ export default function Home() {
   <h1 className={`text-2xl ${color ? 'text-teal-600' : 'text-yellow-600'} font-bold max-sm:text-lg`}><a href='#about-me'>PORTFOLIO</a></h1>
   <ul className='flex gap-20 text-sm tracking-widest max-md:hidden'>
     <li> <a href="#about-me" className=' font-bold text-white hover:text-xl duration-500'>ABOUT ME</a></li>
+    <li> <a href="#certifications" className=' font-bold text-white hover:text-xl duration-500'>CERTIFICATIONS</a></li>
     <li> <a href="#skills" className=' font-bold text-white hover:text-xl duration-500'>SKILLS</a></li>
     <li> <a href="#projects" className=' font-bold text-white hover:text-xl duration-500'>PROJECTS</a></li>
   </ul>
@@ -76,9 +77,10 @@ export default function Home() {
   </ul>
 </nav>
 
-<nav className={`max-sm:-mt-8 max-sm:mb-5 max-sm:mx-10 md:hidden gap-5 -mt-16 mb-10 bg-gradient-to-b from-gray-900 to-gray-700 overflow-hidden transition-all duration-1000 ${isVisible ? 'h-64 opacity-100' : 'h-0 opacity-0'} rounded-full`}>
+<nav className={`max-sm:-mt-8 max-sm:mb-5 max-sm:mx-10 md:hidden gap-5 -mt-16 mb-10 bg-gradient-to-b from-gray-900 to-gray-700 overflow-hidden transition-all duration-1000 ${isVisible ? ' h-80 opacity-100' : 'h-0 opacity-0'} rounded-full`}>
   <ul>
     <li className=' hover:text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500  p-5 text-white text-center'><a href='#about-me' onClick={ ()=>{ setIsVisible(false)}}>ABOUT ME</a></li>
+    <li className=' hover:text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500  p-5 text-white text-center'><a href='#certifications' onClick={ ()=>{ setIsVisible(false)}}>CERTIFICATIONS</a></li>
     <li className=' hover:text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500  p-5 text-white text-center'><a href='#skills' onClick={ ()=>{ setIsVisible(false)}}>SKILLS</a></li>
     <li className=' hover:text-xl hover:bg-gradient-to-r from-cyan-500 to-teal-500  p-5 text-white text-center'><a href='#projects' onClick={( )=>{ setIsVisible(false)}}>PROJECTS</a></li>
     <li className=' hover:text-xl p-5 flex justify-center'><BsFillMoonStarsFill className=' cursor-pointer text-3xl text-yellow-400' onClick={toggleColor}/></li>
@@ -109,17 +111,17 @@ export default function Home() {
     <form className='text-white max-sm:text-sm' ref={form} onSubmit={sendEmail}>
 
       <label className='flex-col flex font-bold'>
-        Your Name
+        Name
       <input type='text' value={text1} onChange={(e)=>{setText1(e.target.value)}} name='from_name' className='border-2 border-teal-600 my-3 text-black rounded-full h-10 p-5'/>
       </label>
 
       <label className='flex-col flex font-bold'>
-        Your Email Address
+        Email Address
       <input type='text' value={text2} onChange={(e)=>{setText2(e.target.value)}} name='from-email' className='border-2 border-teal-600 my-3 text-black rounded-full h-10 p-5'/>
       </label>
 
       <label className='flex-col flex font-bold'>
-        Your Message
+        Message
         <textarea rows="4" cols="50" value={text3} onChange={(e)=>{setText3(e.target.value)}} name='message' className='border-2 border-teal-600 my-3 text-black p-2 rounded-lg'/>
       </label>
 
@@ -147,11 +149,29 @@ export default function Home() {
 
 </section>
 
+  <section className='px-10 my-16'>
+          <h3 className={`text-3xl py-1 text-teal-600 font-bold ${color ? 'text-teal-500': 'text-yellow-600'}`} id='certifications'>Certifications</h3>
+          <div class="border-b-2 border-gray-400 my-4"></div>
+          <div className='flex space-x-20 m-5 overflow-x-scroll'>
+          <img src='8.png' className='h-72 w-auto rounded-2xl mb-4'></img>
+          <img src='2.png' className='h-72 w-auto rounded-2xl mb-4'></img>
+          <img src='3.png' className='h-72 w-auto rounded-2xl mb-4'></img>
+          <img src='4.png' className='h-72 w-auto rounded-2xl mb-4'></img>
+          <img src='5.png' className='h-72 w-auto rounded-2xl mb-4'></img>
+          <img src='1.png' className='h-72 w-auto rounded-2xl mb-4'></img>
+          <img src='7.png' className='h-72 w-auto rounded-2xl mb-4'></img>
+          <img src='6.png' className='h-72 w-auto rounded-2xl mb-4'></img>
 
-      <section className='px-10 my-16' id='skills'>
+
+          </div>
+  </section>
+
+
+  <section className='px-10 my-16' id='skills'>
           <h3 className={`text-3xl py-1 w-1 text-teal-600 font-bold ${color ? 'text-teal-500': 'text-yellow-600'}`}>Skills</h3>
           <div class="border-b-2 border-gray-400 my-4"></div>
           <p className='font-bold'>Some of the things I have worked with:</p>
+
           <div className='p-10 m-5 h-auto shadow-2xl border-black rounded-3xl bg-gradient-to-t from-gray-900 to-gray-700 flex flex-col w-auto'>
             <ul className='flex justify-between items-center mb-10 max-md:overflow-hidden flex-wrap max-as:justify-center'>
               <li className=' text-center text-white mx-5 my-5'><BiLogoReact className='text-8xl text-blue-500 max-md:text-7xl' /> React JS</li>
@@ -165,21 +185,29 @@ export default function Home() {
               <li className=' text-center text-white mx-5 my-5'><TbBrandNextjs className='text-8xl text-white max-md:text-7xl'/> Next JS</li>
               <li className=' text-center text-white mx-5 my-5'><AiOutlineMobile className='text-8xl text-orange-500 max-md:text-7xl'/> React <br/>Native</li>
               <li className=' text-center text-white mx-5 my-5'><BiLogoWordpress className='text-8xl text-gray-600 max-md:text-7xl'/> Wordpress</li>
+            </ul>
+          </div>
+  </section>
+
+  <section className='px-10 my-16' id='projects'>
+          <h3 className={`text-3xl py-1 text-teal-600 font-bold ${color ? 'text-teal-500': 'text-yellow-600'}`}>Experience / Projects</h3>
+          <div class="border-b-2 border-gray-400 my-4"></div>
+
+          <div className='p-10 m-5 h-auto shadow-2xl bg-gradient-to-t from-gray-900 to-gray-700 rounded-3xl'>
+            <ul className='flex justify-around'>
+
+            <li className='flex flex-col items-center'>
+            <img src='Pokedex.jpg' className='h-72 w-auto rounded-2xl mb-4'></img>
+            <p className='text-white'>1. Pokedex with React Native</p>
+            <a href='https://expo.dev/artifacts/eas/deFwTgMEGvVbpu5oFMSsa.apk' className='text-yellow-500'>Click To Download</a>
+            <p className='text-white'>(Android Only)</p> 
+            </li>
 
             </ul>
           </div>
-      </section>
 
-      <section className='px-10 my-16' id='projects'>
-          <h3 className={`text-3xl py-1 text-teal-600 font-bold ${color ? 'text-teal-500': 'text-yellow-600'}`}>Projects</h3>
-          <div class="border-b-2 border-gray-400 my-4"></div>
-
-          <div className='p-10 m-5 h-auto shadow-2xl bg-gradient-to-t from-gray-900 to-gray-700 rounded-3xl flex justify-center items-center'>
-            <p className=' text-3xl text-center text-white'>COMING SOON</p>
-          </div>
           <a href='#' className='absolute right-1 mb-36'><AiOutlineArrowUp className=' text-4xl text-yellow-500 p-2 bg-black rounded-full max-as:text-4xl'/></a>
-
-      </section>
+  </section>
 
 
     <footer className='p-5 bg-gradient-to-b from-gray-900 to-gray-700 text-white text-center flex flex-col gap-5'>
