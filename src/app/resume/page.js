@@ -42,14 +42,6 @@ export default function ResumePage() {
                   Resume
                 </a>
               </li>
-              <li>
-                <a
-                  href='/contact'
-                  className='hover:text-cyan-300 transition-colors duration-300'
-                >
-                  Contact
-                </a>
-              </li>
             </ul>
           </div>
         </nav>
@@ -77,7 +69,7 @@ export default function ResumePage() {
                   <h3 className='text-2xl font-light text-white mb-2'>Master of Science in Artificial Intelligence</h3>
                   <p className='text-cyan-300 text-sm font-light mb-2'>Arizona State University, Tempe, AZ — May 2026</p>
                   <p className='text-gray-300 font-light'>Specialization: Robotics & Autonomous Systems</p>
-                  <p className='text-gray-400 text-sm mt-2'>GPA: 3.85/4.0</p>
+                  <p className='text-gray-400 text-sm mt-2'>GPA: 3.90/4.0</p>
                 </div>
                 <div className='border-l-2 border-cyan-500/50 pl-6'>
                   <h3 className='text-2xl font-light text-white mb-2'>Bachelor of Technology in Computer Science & Engineering</h3>

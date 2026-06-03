@@ -61,21 +61,13 @@ export default function HomePage() {
                 </a>
               </li>
 
-              <li>
-                <a
-                  href='/contact'
-                  className='hover:text-cyan-300 transition-colors duration-300'
-                >
-                  Contact
-                </a>
-              </li>
             </ul>
           </div>
         </nav>
 
         {/* Hero Section with Orbs */}
         <section
-          className='min-h-screen relative flex items-center justify-center pt-20 px-6 overflow-hidden'
+          className='min-h-screen relative flex items-center justify-center pt-12 md:pt-20 px-6 overflow-hidden'
           id='home'
         >
           {/* Animated Orbs Background */}
@@ -118,11 +110,11 @@ export default function HomePage() {
 
           {/* Hero Content */}
           <div className='relative z-10 text-center max-w-3xl mx-auto'>
-            <h1 className='text-7xl md:text-8xl font-bold tracking-tighter mb-6 leading-tight'>
+            <h1 className='text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-6 leading-tight'>
               ASHWAT
             </h1>
 
-            <h2 className='text-5xl md:text-6xl font-light tracking-tight mb-8 text-gray-300'>
+            <h2 className='text-3xl md:text-5xl lg:text-6xl font-light tracking-tight mb-8 text-gray-300'>
               RAJBHANDARI
             </h2>
 
@@ -136,7 +128,7 @@ export default function HomePage() {
               world.
             </p>
 
-            <div className='flex gap-6 justify-center mb-12'>
+            <div className='flex gap-4 md:gap-6 justify-center mb-12'>
               <a
                 href='https://github.com/Ashwat231'
                 target='_blank'
@@ -163,7 +155,7 @@ export default function HomePage() {
             </div>
 
             {/* Action Buttons */}
-            <div className='flex gap-4 justify-center flex-wrap'>
+            <div className='flex gap-3 md:gap-4 justify-center flex-wrap pb-12'>
               <a
                 href='/resume'
                 className='px-8 py-3 border hover:bg-gray-500 rounded-full border-cyan-500/50 hover:border-cyan-400 hover:bg-cyan-500/10 transition-all tracking-widest text-sm text-cyan-400 hover:text-cyan-300'
@@ -176,13 +168,6 @@ export default function HomePage() {
                 className='px-8 py-3 border hover:bg-gray-500 rounded-full border-cyan-500/50 hover:border-cyan-400 hover:bg-cyan-500/10 transition-all tracking-widest text-sm text-cyan-400 hover:text-cyan-300'
               >
                 PROJECTS
-              </a>
-
-              <a
-                href='/contact'
-                className='px-8 py-3 border hover:bg-gray-500 rounded-full border-cyan-500/50 hover:border-cyan-400 hover:bg-cyan-500/10 transition-all tracking-widest text-sm text-cyan-400 hover:text-cyan-300'
-              >
-                CONTACT
               </a>
             </div>
           </div>

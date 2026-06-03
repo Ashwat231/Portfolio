@@ -61,14 +61,6 @@ export default function PublicationsPage() {
                   Resume
                 </a>
               </li>
-              <li>
-                <a
-                  href='/contact'
-                  className='hover:text-cyan-300 transition-colors duration-300'
-                >
-                  Contact
-                </a>
-              </li>
             </ul>
           </div>
         </nav>
