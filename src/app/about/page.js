@@ -59,7 +59,7 @@ export default function AboutPage() {
                 With expertise spanning AI, robotics, full-stack development, and computer vision, I approach each project with precision and innovation. My work bridges the gap between cutting-edge AI research and practical real-world applications, from autonomous systems to web technologies.
               </p>
               <p className='text-gray-300 text-lg leading-relaxed font-light'>
-                Currently, I'm a Research Assistant at the NICE Lab at ASU, focusing on cutting-edge research in computer vision and robotics. My research interests include visual perception at extreme scales, reinforcement learning for robot control, and visual imitation learning.
+                Currently, I am a Research Assistant at the NICE Lab at ASU, focusing on cutting-edge research in computer vision and robotics. My research interests include visual perception at extreme scales, reinforcement learning for robot control, and visual imitation learning.
               </p>
             </div>
 

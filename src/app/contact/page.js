@@ -130,8 +130,8 @@ export default function ContactPage() {
             {/* Message */}
             <div className='pt-8 border-t border-cyan-500/20'>
               <p className='text-gray-300 text-lg leading-relaxed font-light'>
-                I'm always interested in hearing about exciting opportunities, research collaborations, or interesting projects. 
-                Feel free to reach out through any of the contact methods above. I'll get back to you as soon as possible!
+                I am always interested in hearing about exciting opportunities, research collaborations, or interesting projects. 
+                Feel free to reach out through any of the contact methods above. I will get back to you as soon as possible!
               </p>
             </div>
           </div>
