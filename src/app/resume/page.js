@@ -53,7 +53,7 @@ export default function ResumePage() {
             RESUME
           </h1>
           <p className='text-lg md:text-xl text-gray-300 font-light'>
-            Education, experience, and professional background.
+            Education and professional background.
           </p>
         </div>
       </section>
@@ -82,11 +82,10 @@ export default function ResumePage() {
             <div className='pt-8 border-t border-cyan-500/20'>
               <h2 className='text-4xl font-light tracking-tight mb-8 text-cyan-300'>BACKGROUND</h2>
               <p className='text-gray-300 text-lg leading-relaxed font-light mb-6'>
-                With expertise spanning AI, robotics, full-stack development, and computer vision, I approach each project with precision and innovation. My work bridges the gap between cutting-edge AI research and practical real-world applications, from autonomous systems to web technologies.
+                With expertise spanning AI/ML, robotics, full-stack development, and computer vision, I approach each project with precision and innovation. My work bridges the gap between cutting-edge AI research and practical real-world applications, from autonomous systems to fullstack technologies.
               </p>
               <p className='text-gray-300 text-lg leading-relaxed font-light'>
-                Currently, I am a Research Assistant at the NICE Lab at ASU, focusing on cutting-edge research in computer vision and robotics. My research interests include visual perception at extreme scales, reinforcement learning for robot control, and visual imitation learning.
-              </p>
+                My interests lie at the intersection of machine learning, backend systems, and intelligent agents, with a focus on developing scalable software that bridges cutting-edge AI research and practical applications. I am particularly interested in computer vision, reinforcement learning, MLOps, distributed systems, and full-stack AI products.              </p>
             </div>
           </div>
         </div>

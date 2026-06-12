@@ -80,10 +80,6 @@ export default function PublicationsPage() {
                         <SiGooglescholar className='text-xl' /> 
                       </a> 
           </p>
-
-          <p className='text-lg md:text-xl text-gray-300 font-light border-b border-cyan-500/20 pb-6'>
-            Peer-reviewed research and publications in computer vision and robotics.
-          </p>
         </div>
       </section>
 

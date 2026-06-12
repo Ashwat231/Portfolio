@@ -119,7 +119,7 @@ export default function HomePage() {
             </h2>
 
             <p className='text-lg md:text-xl text-gray-400 mb-6 font-light tracking-wide max-w-2xl mx-auto'>
-              AI Researcher & Full Stack Developer
+              AI/ML Engineer & Full Stack Developer
             </p>
 
             <p className='text-gray-200 mb-12 leading-relaxed max-w-lg mx-auto font-light'>

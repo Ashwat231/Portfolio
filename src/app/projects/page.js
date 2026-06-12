@@ -6,6 +6,19 @@ import React, {useState, useEffect} from 'react';
 export default function ProjectsPage() {
   const projects = [
     {
+      title: 'Soccer Score Prediction',
+      desc: [
+        'Developed an end-to-end machine learning pipeline to predict soccer match outcomes (win/draw/loss) using six seasons of historical English Premier League match data, performing data preprocessing, feature engineering, and model evaluation.',
+        'Engineered predictive features from recent team form, goal-scoring trends, goal difference, and historical win rates; trained and compared Logistic Regression, Random Forest, and XGBoost models to evaluate predictive performance.',
+        'Built and deployed a FastAPI backend serving real-time match predictions through REST APIs, containerized the service using Docker, and integrated a Next.js frontend deployed on Vercel for interactive prediction workflows.'
+      ],
+      tech: ['Python', 'Machine Learning', 'Random Forest', 'Logistic Regression', 'Extreme Gradient Boost', 'Pandas', 'FastAPI', 'Dockers', 'Render', 'NextJS', 'TailWind', 'Vercel', 'Github'],
+      image: 'PREDICT.gif',
+      linkType:'url',
+      linkHref: 'https://predictsoccer.vercel.app/',
+      linkLabel: 'URL'
+    },
+    {
       title: 'Visual Imitation via Nearest Neighbors on Stretch 3',
       desc: ['Trained an encoder on a VINN-based imitation learning system, used self-supervised visual representations and k-nearest-neighbor for action retrieval, on collected dataset of picking up cards and stacking blocks. ',
         'Integrated the Encoder with the Hello Robot Stretch 3, enabling real-time, vision-based, multi-joint execution in the real world which successfully picked cards. '
@@ -19,7 +32,7 @@ export default function ProjectsPage() {
         'Designed a component-based UI with reusable React components and optimized page performance via Next.js static generation deployed to production on Vercel with a custom domain.',
         'Implemented reusable UI components in Tailwind CSS to improve development efficiency and maintain design consistency across pages'
       ],
-      tech: ['NextJS', 'Tailwind', 'Vercel'],
+      tech: ['NextJS', 'Tailwind', 'NginX'],
       image: 'QiMinerals.gif',
       linkType: 'url',
       linkHref: 'https://www.qiminerals.com/',
@@ -40,19 +53,6 @@ export default function ProjectsPage() {
         {text: 'Code', href: 'https://github.com/Ashwat231/VReID-XFD'},
         
       ]
-    },
-    {
-      title: 'Soccer Score Prediction',
-      desc: [
-        'Developed an end-to-end machine learning pipeline to predict soccer match outcomes (win/draw/loss) using six seasons of historical English Premier League match data, performing data preprocessing, feature engineering, and model evaluation.',
-        'Engineered predictive features from recent team form, goal-scoring trends, goal difference, and historical win rates; trained and compared Logistic Regression, Random Forest, and XGBoost models to evaluate predictive performance.',
-        'Built and deployed a FastAPI backend serving real-time match predictions through REST APIs, containerized the service using Docker, and integrated a Next.js frontend deployed on Vercel for interactive prediction workflows.'
-      ],
-      tech: ['Python', 'Machine Learning', 'Random Forest', 'Logistic Regression', 'Extreme Gradient Boost', 'Pandas', 'FastAPI', 'Dockers', 'Render', 'NextJS', 'TailWind', 'Vercel', 'Github'],
-      image: 'PREDICT.gif',
-      linkType:'url',
-      linkHref: 'https://predictsoccer.vercel.app/',
-      linkLabel: 'URL'
     },
     {
       title: 'Steering Diffusion Policies with RL (DSRL)',
@@ -113,12 +113,9 @@ export default function ProjectsPage() {
       {/* Page Header */}
       <section className='min-h-[30vh] relative flex items-center justify-center pt-20 sm:pt-24 px-6' id='projects-header'>
         <div className='relative z-10 text-center max-w-3xl mx-auto'>
-          <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight mb-6 text-white'>
+          <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-white'>
             PROJECTS
           </h1>
-          <p className='text-base sm:text-lg md:text-xl text-slate-300 font-light'>
-            A selection of my research and development work in robotics, AI, and computer vision.
-          </p>
         </div>
       </section>
 
