@@ -47,7 +47,7 @@ export default function ProjectsPage() {
         'holder 2',
         'holder 3'
       ],
-      tech: ['Python', 'Machine Learning', 'Pandas', 'FastAPI', 'Dockers', 'Render', 'NextJS', 'TailWind', 'Vercel', 'Github'],
+      tech: ['Python', 'Machine Learning', 'Random Forest', 'Logistic Regression', 'Extreme Gradient Boost', 'Pandas', 'FastAPI', 'Dockers', 'Render', 'NextJS', 'TailWind', 'Vercel', 'Github'],
       image: 'holder.gif',
       linkType:'url',
       linkHref: 'predictsoccer.vercel.app',
