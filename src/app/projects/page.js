@@ -50,7 +50,7 @@ export default function ProjectsPage() {
       tech: ['Python', 'Machine Learning', 'Pandas', 'FastAPI', 'Dockers', 'Render', 'NextJS', 'TailWind', 'Vercel', 'Github'],
       image: 'holder.gif',
       linkType:'url',
-      linkHref: 'https://www.predictsoccer.vercel.app',
+      linkHref: 'predictsoccer.vercel.app',
       linkLabel: 'URL'
     },
     {
