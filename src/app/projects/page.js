@@ -42,6 +42,18 @@ export default function ProjectsPage() {
       ]
     },
     {
+      title: 'Soccer Score Prediction',
+      desc: ['holder',
+        'holder 2',
+        'holder 3'
+      ],
+      tech: ['Python', 'Machine Learning', 'Pandas', 'FastAPI', 'Dockers', 'Render', 'NextJS', 'TailWind', 'Vercel', 'Github'],
+      image: 'holder.gif',
+      linkType:'url',
+      linkHref: 'https://www.predictsoccer.vercel.app',
+      linkLabel: 'URL'
+    },
+    {
       title: 'Steering Diffusion Policies with RL (DSRL)',
       desc: ['Reproduced reinforcement learning pipeline using Actor-Critic (PPO) method to control diffusion-based policies in latent action spaces with large-scale HPC experiments on Libero Simulation/Benchmark.',
         'Conducted large-scale simulation experiments to analyze training stability, convergence properties, and generalization across various benchmark tasks, demonstrating the effectiveness of DSRL in learning complex control policies with fewer sample size.',
