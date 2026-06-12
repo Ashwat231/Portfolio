@@ -43,12 +43,13 @@ export default function ProjectsPage() {
     },
     {
       title: 'Soccer Score Prediction',
-      desc: ['holder',
-        'holder 2',
-        'holder 3'
+      desc: [
+        'Developed an end-to-end machine learning pipeline to predict soccer match outcomes (win/draw/loss) using six seasons of historical English Premier League match data, performing data preprocessing, feature engineering, and model evaluation.',
+        'Engineered predictive features from recent team form, goal-scoring trends, goal difference, and historical win rates; trained and compared Logistic Regression, Random Forest, and XGBoost models to evaluate predictive performance.',
+        'Built and deployed a FastAPI backend serving real-time match predictions through REST APIs, containerized the service using Docker, and integrated a Next.js frontend deployed on Vercel for interactive prediction workflows.'
       ],
       tech: ['Python', 'Machine Learning', 'Random Forest', 'Logistic Regression', 'Extreme Gradient Boost', 'Pandas', 'FastAPI', 'Dockers', 'Render', 'NextJS', 'TailWind', 'Vercel', 'Github'],
-      image: 'holder.gif',
+      image: 'PREDICT.gif',
       linkType:'url',
       linkHref: 'https://predictsoccer.vercel.app/',
       linkLabel: 'URL'
