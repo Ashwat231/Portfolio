@@ -14,9 +14,10 @@ export default function ProjectsPage() {
       ],
       tech: ['Python', 'Machine Learning', 'Random Forest', 'Logistic Regression', 'Extreme Gradient Boost', 'Pandas', 'FastAPI', 'Dockers', 'Render', 'NextJS', 'TailWind', 'Vercel', 'Github'],
       image: 'PREDICT.gif',
-      linkType:'url',
-      linkHref: 'https://predictsoccer.vercel.app/',
-      linkLabel: 'URL'
+      labels: [
+        {text: 'URL', href: 'https://predictsoccer.vercel.app/'},
+        {text: 'Code', href: 'https://github.com/Ashwat231/Soccer_Score_Prediction'},
+      ]
     },
     {
       title: 'Visual Imitation via Nearest Neighbors on Stretch 3',
